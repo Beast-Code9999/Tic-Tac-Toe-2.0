@@ -1,0 +1,26 @@
+// abstract partial files
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+// base partial files
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// components partial files
+@import "components/btn";
+@import "components/sidebar";
+
+// layour partial files
+@import "layout/about";
+@import "layout/footer";
+@import "layout/gallery";
+@import "layout/header";
+@import "layout/projects";
+@import "layout/qualities";
+@import "layout/quotes";
+
+// pages partial files
+@import "pages/home";
