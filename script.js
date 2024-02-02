@@ -5,6 +5,14 @@ const Gameboard = (function Gameboard(){
 const MiniMax = (function MiniMax(){
 
 })();
+
+const GameController = (function GameController(){
+
+})();
+
+const DisplayController = (function DisplayController(){
+
+})();
  
 const TicTacToe = (function TicTacToe(){
 
