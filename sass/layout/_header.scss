@@ -1,136 +1,148 @@
-.header {
-    grid-column: full-start / col-end 6;
-    height: 100%;
-    background-size: cover;
-    background-image: linear-gradient(to bottom, rgba($color-secondary, .5), rgba($color-secondary, .8)), url(/img/pexels-francesco-ungaro-96381.jpg);
-    padding: 4rem 8rem;
-    display: flex;
-    flex-direction: column;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-    @include responsive( 1000 ) {
-        grid-column: 1 / -1;
-        padding: 8rem;
+// .header {
+//     grid-column: full-start / col-end 6;
+//     height: 100%;
+//     background-size: cover;
+//     background-image: linear-gradient(to bottom, rgba($color-secondary, .5), rgba($color-secondary, .8)), url(/img/pexels-francesco-ungaro-96381.jpg);
+//     padding: 4rem 8rem;
+//     display: flex;
+//     flex-direction: column;
 
-    }
+//     @include responsive( 1000 ) {
+//         grid-column: 1 / -1;
+//         padding: 8rem;
+
+//     }
 
 
-    &__logo {
-        width: 10rem;
-        margin: 0 auto;
+//     &__logo {
+//         width: 10rem;
+//         margin: 0 auto;
 
-        @include responsive( 1000 ) {
-            width: 12rem;   
-        }
-    }
+//         @include responsive( 1000 ) {
+//             width: 12rem;   
+//         }
+//     }
 
-    &__heading {
+//     &__heading {
         
-        &--4 {
-            font-size: 2rem;
-            color: $color-primary;
-            margin-bottom: -2rem;
+//         &--4 {
+//             font-size: 2rem;
+//             color: $color-primary;
+//             margin-bottom: -2rem;
 
-            @include responsive( 1000 ) {
-                font-size: 3rem;
-                margin-top: auto;
-            }
+//             @include responsive( 1000 ) {
+//                 font-size: 3rem;
+//                 margin-top: auto;
+//             }
             
-            @include responsive( 600 ) {
-                font-size: 2rem;
-            }
-        }
+//             @include responsive( 600 ) {
+//                 font-size: 2rem;
+//             }
+//         }
 
-        &--2 {
-            font-size: 5rem;
-            color: white;
+//         &--2 {
+//             font-size: 5rem;
+//             color: white;
 
-            @include responsive( 1000 ) {
-                font-size: 9rem;
-            }
+//             @include responsive( 1000 ) {
+//                 font-size: 9rem;
+//             }
 
-            @include responsive( 600 ) {
-                font-size: 6rem;   
-            }
-        }
+//             @include responsive( 600 ) {
+//                 font-size: 6rem;   
+//             }
+//         }
 
-        &--3 {
-            color: white;
-            font-size: 3rem;
-            margin-top: -1rem;
+//         &--3 {
+//             color: white;
+//             font-size: 3rem;
+//             margin-top: -1rem;
 
-            & span {
-                color: $color-primary;
-            }
+//             & span {
+//                 color: $color-primary;
+//             }
 
-            @include responsive( 1000 ) {
-                font-size: 4rem;
-            }
-            @include responsive( 600 ) {
-                font-size: 3rem;   
-            }
-        }
+//             @include responsive( 1000 ) {
+//                 font-size: 4rem;
+//             }
+//             @include responsive( 600 ) {
+//                 font-size: 3rem;   
+//             }
+//         }
 
-    }
+//     }
 
-    &__button {
-        width: 25rem;
-        font-size: 2rem;
-        border-radius: 2rem;
-        transition: all .1s;
-
-
-        &:hover {
-            transform: translateY(-1rem);
-            background-color: $color-primary;
-            cursor: pointer;
-        }
-
-        @include responsive( 1000 ) {
-            width: 40rem;
-            font-size: 3rem;
-        }
-
-        @include responsive( 600 ) {
-            width: auto;
-            font-size: 2rem;
-        }
-    }
-
-    &__line {
-        text-align: center;
-        color: #aaa;
-        font-size: 1.5rem;
-        font-weight: 800;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-
-        &::before, &::after {
-            content: "";
-            width: 35%;
-            height: .2rem;
-            background-color: #aaa;
-            display: block;
-        }
-
-        @include responsive( 1000 ) {
-            margin-top: auto;   
-        }
-    }
-
-    &__technology {
-        width: 100%;
-        justify-self: flex-end;
-        display: flex;
-        justify-content: space-evenly;
-
-        & img {
-            width: 5rem;
-            filter: invert(80%) sepia(0%) saturate(5%) hue-rotate(143deg) brightness(91%) contrast(89%);
-        }
+//     &__button {
+//         width: 25rem;
+//         font-size: 2rem;
+//         border-radius: 2rem;
+//         transition: all .1s;
 
 
-    }
-}
+//         &:hover {
+//             transform: translateY(-1rem);
+//             background-color: $color-primary;
+//             cursor: pointer;
+//         }
+
+//         @include responsive( 1000 ) {
+//             width: 40rem;
+//             font-size: 3rem;
+//         }
+
+//         @include responsive( 600 ) {
+//             width: auto;
+//             font-size: 2rem;
+//         }
+//     }
+
+//     &__line {
+//         text-align: center;
+//         color: #aaa;
+//         font-size: 1.5rem;
+//         font-weight: 800;
+//         width: 100%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         gap: 1rem;
+
+//         &::before, &::after {
+//             content: "";
+//             width: 35%;
+//             height: .2rem;
+//             background-color: #aaa;
+//             display: block;
+//         }
+
+//         @include responsive( 1000 ) {
+//             margin-top: auto;   
+//         }
+//     }
+
+//     &__technology {
+//         width: 100%;
+//         justify-self: flex-end;
+//         display: flex;
+//         justify-content: space-evenly;
+
+//         & img {
+//             width: 5rem;
+//             filter: invert(80%) sepia(0%) saturate(5%) hue-rotate(143deg) brightness(91%) contrast(89%);
+//         }
+
+
+//     }
+// }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem 0rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+} 
