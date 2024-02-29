@@ -1,8 +1,40 @@
 .container {
     width: 61.8rem;
     height: 41.3rem;
-    padding: 1.6rem;
     
+    padding: 0 1.6rem;
     border-radius: 1rem;
     background-color: lightseagreen;
+    @include flex(column, space-between, center);
+    
+    
+    &__header {
+        width: 100%;
+        height: 3rem;
+
+        
+        position: relative;
+        
+
+        background-color: white;
+
+    }
+
+    &__main {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        background-color: black;
+    }
+
+    &__footer {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        gap: 2rem;
+    }
 }
