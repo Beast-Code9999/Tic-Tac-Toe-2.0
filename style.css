@@ -72,16 +72,13 @@ body::-webkit-scrollbar-thumb {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
-.footer {
-  grid-column: full-start / full-end;
-  text-transform: uppercase;
-  background-color: #101d2c; }
-
 footer {
   padding: 8rem;
   text-align: center;
   font-size: 3rem;
-  color: white;
+  color: black;
+  font-weight: 900;
+  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -95,7 +92,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,9 +112,14 @@ footer img:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0rem;
+  background-color: lightcoral;
+  padding: 8rem 0rem;
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem; }
+
+.main {
+  position: relative;
+  width: 100%; }
 
 .container {
   display: grid;
