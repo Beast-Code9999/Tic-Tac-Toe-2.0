@@ -1,5 +1,8 @@
 .main {
     position: relative;
     width: 100%;
-    
+    @include flex(row, center, center);
+
+    background-color: lightgreen;
+    height: 80vh;
 }

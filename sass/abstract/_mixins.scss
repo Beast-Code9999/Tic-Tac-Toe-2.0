@@ -29,3 +29,10 @@
         @media ( min-width: 62.5em ) { @content };
     }
 }
+
+@mixin flex($flex-drection, $justify, $align) {
+    display: flex;
+    flex-direction: $flex-drection;
+    justify-content: $justify;
+    align-items: $align;
+}
