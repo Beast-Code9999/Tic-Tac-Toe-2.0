@@ -16,10 +16,18 @@
         background-color: white;
         padding-top: 12px; 
 
-        &_div1 {
-            
+        &__div1 {
+
+            & div img {
+                width: 2rem;
+            }
+        }__div2 {
+
         }
 
+        &__div3 {
+            
+        }
     }
 
     &__main {
