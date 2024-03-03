@@ -160,3 +160,7 @@ footer img:hover {
   align-items: center;
   background-color: lightgreen;
   height: 80vh; }
+
+#mode {
+  background-color: lightsalmon;
+}
