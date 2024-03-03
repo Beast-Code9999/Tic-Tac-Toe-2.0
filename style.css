@@ -94,7 +94,8 @@ body::-webkit-scrollbar-thumb {
       justify-content: space-between;
       align-items: center; }
       .container__header__div1 div img {
-        width: 2rem; }
+        width: 2rem;
+        cursor: pointer; }
     .container__header__div2 {
       background-color: lightblue; }
     .container__header__div3 {
