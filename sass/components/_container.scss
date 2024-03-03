@@ -3,7 +3,7 @@
     height: 41.3rem;
     
     padding: 0 1.6rem;
-    border-radius: 1rem;
+    border-radius: 1rem; 
     background-color: lightseagreen;
     @include flex(column, space-between, center);
     
@@ -17,16 +17,19 @@
         padding-top: 12px; 
 
         &__div1 {
+            @include flex(row, space-between, center);
 
             & div img {
                 width: 2rem;
             }
-        }__div2 {
-
+        }
+        
+        &__div2 {
+            background-color: lightblue;
         }
 
         &__div3 {
-            
+            background-color: lightgreen;
         }
     }
 
