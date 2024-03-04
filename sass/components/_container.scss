@@ -68,6 +68,7 @@
 .score {
 
     &--board {
+        
 
     }
 
@@ -77,12 +78,19 @@
 }
 
 .player {
+    width: 20rem;
+    height: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba($color: #000000, $alpha: 0.3);
 
     &__img {
+        width: 2.5rem;
 
     }
     &__paragraph {
-        
+
     }
 
     &-x {
