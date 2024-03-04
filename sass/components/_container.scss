@@ -68,7 +68,7 @@
 .score {
 
     &--board {
-        
+        margin-bottom: 1rem;
 
     }
 
@@ -82,11 +82,11 @@
     height: auto;
     padding: 1rem;
     background-color: white;
-    border-radius: 1rem;
-    box-shadow: 1rem 1rem 1rem rgba($color: #000000, $alpha: 0.3);
+    border-radius: 8px;
+    outline: $color-gray-light-2 solid 1px;
 
     &__img {
-        width: 2.5rem;
+        width: 2rem;
 
     }
     &__paragraph {
