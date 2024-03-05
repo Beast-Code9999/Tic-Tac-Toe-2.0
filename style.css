@@ -28,7 +28,7 @@ body::-webkit-scrollbar-track {
   background: white; }
 
 body::-webkit-scrollbar-thumb {
-  background: #26a5bc; }
+  background: #1bbfb1; }
 
 .heading-2 {
   font-size: 4rem;
@@ -134,7 +134,8 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem;
   background-color: white;
   border-radius: 8px;
-  outline: #aaa solid 1px; }
+  outline: #aaa solid 1px;
+  border-bottom: 4px solid transparent; }
   .player__img {
     width: 2rem; }
 

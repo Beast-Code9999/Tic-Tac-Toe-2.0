@@ -84,6 +84,9 @@
     background-color: white;
     border-radius: 8px;
     outline: $color-gray-light-2 solid 1px;
+    
+    border-bottom: 4px solid transparent;
+    
 
     &__img {
         width: 2rem;
@@ -94,6 +97,7 @@
     }
 
     &-x {
+
 
         &__img {
 
