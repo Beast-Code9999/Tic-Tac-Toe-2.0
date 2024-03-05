@@ -49,11 +49,12 @@
     // where Tic-Tac-Toe board will be located
     &__main {
         width: 100%;
-        height: 21.6rem;
+        height: 26.6rem;
         display: flex;
         justify-content: center;
         gap: 2rem;
         background-color: $color-primary;
+        padding: 2rem 0;
     }
 
     // Restart game button location
