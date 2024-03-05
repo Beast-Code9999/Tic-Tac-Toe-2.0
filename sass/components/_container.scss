@@ -1,21 +1,22 @@
+// Parent div, direct child of <main>
 .container {
     width: 61.8rem;
     height: 41.3rem;
-    
+
     padding: 0 1.6rem;
-    border-radius: 1rem; 
+    border-radius: 1rem;
     background-color: white;
     border: 1px solid $color-gray-dark-2;
     @include flex(column, space-between, center);
-    
-    
+
+    // Mode select, Share, Scoring system inclusding the tally and paragprah to convey winnders and the current turn
     &__header {
         width: 100%;
         height: 3rem;
 
         position: relative;
         background-color: white;
-        padding-top: 12px; 
+        padding-top: 12px;
 
         &__div1 {
             @include flex(row, space-between, center);
@@ -26,7 +27,7 @@
                 cursor: pointer;
             }
         }
-        
+
         &__div2 {
             background-color: lightblue;
             margin-bottom: 1rem;
@@ -47,6 +48,7 @@
         }
     }
 
+    // where Tic-Tac-Toe board will be located
     &__main {
         width: 100%;
         height: 2rem;
@@ -56,6 +58,7 @@
         background-color: black;
     }
 
+    // Restart game button location
     &__footer {
         width: 100%;
         height: 2rem;
@@ -65,8 +68,9 @@
         gap: 2rem;
         padding-bottom: 12px;
     }
-} 
+}
 
+// unique class name within .container__header
 .score {
     &--board {
         margin-bottom: 1rem;
@@ -85,16 +89,17 @@
     }
 }
 
+// unique class name within .container__header
 .player {
     width: 20rem;
     height: auto;
-    padding: 1rem;
+    padding: .5rem 2rem;
     background-color: white;
     border-radius: 8px;
-    outline: $color-gray-light-2 solid 1px;   
+    outline: $color-gray-light-2 solid 1px;
     border-bottom: 4px solid transparent;
     @include flex(row, space-between, center);
-    
+
     &::-webkit-input-placeholder, &::-moz-placeholder {
         color: #888;
     }
@@ -107,16 +112,13 @@
 
     &__img {
         width: 2rem;
-
     }
     &__paragraph {
-
+        font-size: 2rem;
 
     }
 
     &-x {
-
-
         &__img {
 
         }
@@ -124,14 +126,13 @@
 
         }
     }
-
     &-o {
 
         &__img {
 
         }
         &__paragraph {
-            
+
         }
     }
 }
