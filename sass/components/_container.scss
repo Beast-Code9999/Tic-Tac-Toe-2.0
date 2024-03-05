@@ -4,7 +4,8 @@
     
     padding: 0 1.6rem;
     border-radius: 1rem; 
-    background-color: lightseagreen;
+    background-color: white;
+    border: 1px solid $color-gray-dark-2;
     @include flex(column, space-between, center);
     
     
@@ -36,8 +37,6 @@
                 background-color: red;
                 @include flex(row, center, center);
                 gap: 2rem;
-
-
             }
         }
 
@@ -69,14 +68,20 @@
 } 
 
 .score {
-
     &--board {
         margin-bottom: 1rem;
-
     }
 
     &--paragraph {
+        @include flex(row, center, center);
 
+        & > div {
+            @include flex(row,center,center);
+            gap: 1rem;
+        }
+        & span {
+            text-align: center;
+        }
     }
 }
 
@@ -86,19 +91,16 @@
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
-    outline: $color-gray-light-2 solid 1px;
-    
+    outline: $color-gray-light-2 solid 1px;   
     border-bottom: 4px solid transparent;
     
     &::-webkit-input-placeholder, &::-moz-placeholder {
         color: #888;
     }
-
     &:hover {
         cursor: pointer;
         border-bottom: 4px solid $color-primary;
     }
-
     &:focus {
     }
 
@@ -107,6 +109,7 @@
 
     }
     &__paragraph {
+
 
     }
 

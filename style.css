@@ -77,7 +77,8 @@ body::-webkit-scrollbar-thumb {
   height: 41.3rem;
   padding: 0 1.6rem;
   border-radius: 1rem;
-  background-color: lightseagreen;
+  background-color: white;
+  border: 1px solid #605D48;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -130,6 +131,20 @@ body::-webkit-scrollbar-thumb {
 
 .score--board {
   margin-bottom: 1rem; }
+
+.score--paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .score--paragraph > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; }
+  .score--paragraph span {
+    text-align: center; }
 
 .player {
   width: 20rem;
