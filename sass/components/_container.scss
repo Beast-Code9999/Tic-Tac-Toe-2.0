@@ -93,6 +93,7 @@
     border-radius: 8px;
     outline: $color-gray-light-2 solid 1px;   
     border-bottom: 4px solid transparent;
+    @include flex(row, space-between, center);
     
     &::-webkit-input-placeholder, &::-moz-placeholder {
         color: #888;
