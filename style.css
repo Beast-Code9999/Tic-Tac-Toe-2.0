@@ -184,7 +184,7 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--color-primary); }
 
 .table__data {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   padding: 1rem;
   position: relative; }
 

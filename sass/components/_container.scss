@@ -153,10 +153,8 @@
 .table__body {
     background-color: var(--color-primary);
 }
-.table__row:hover {
-}
 .table__data {
-    /* border: 2px solid red; */
+    border: 2px solid red; 
     padding: 1rem;
     position: relative;
 }
