@@ -13,9 +13,19 @@ const Gameboard = (function Gameboard(){
     }
 })();
 
-const MiniMax = (function MiniMax(){
+const MiniMax = (function MiniMax( percentage ){
+
+    let aiPrecision = percentage;
+
+    const setAiPercentage = (percentage) => {
+        aiPrecision = percentage;
+    }
+    const getAiPercentage = () => {
+        return aiPrecision;
+    }
 
 
+    
     const init = function init() {
 
     }
