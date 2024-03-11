@@ -41,7 +41,7 @@ const DisplayController = (function DisplayController(){
     }
     return {
         init: init,
-    
+    }
 })();
  
 const TicTacToe = (function TicTacToe(){
