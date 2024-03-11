@@ -1,4 +1,10 @@
+function getElemById(id) {
+    return document.getElementById(id);
+}
+
 const Gameboard = (function Gameboard(){
+
+
 
 })();
 
@@ -7,6 +13,7 @@ const MiniMax = (function MiniMax(){
 })();
 
 const GameController = (function GameController(){
+
 
 })();
 

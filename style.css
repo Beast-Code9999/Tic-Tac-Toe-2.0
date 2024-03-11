@@ -177,8 +177,8 @@ body::-webkit-scrollbar-thumb {
 
 .table {
   /* background-color: var(--color-secondary); */
-  width: 25rem;
-  height: 25rem; }
+  width: 26rem;
+  height: 26rem; }
 
 .table__body {
   background-color: var(--color-primary); }
