@@ -13,15 +13,15 @@ const Gameboard = (function Gameboard(){
     }
 })();
 
-const Player = (function Player() {
+// const Player = (function Player() {
 
-    const init = function init() {
+//     const init = function init() {
 
-    }
-    return {
-        init: init,
-    }
-})();
+//     }
+//     return {
+//         init: init,
+//     }
+// })();
 
 const MiniMax = (function MiniMax( percentage ){
 
