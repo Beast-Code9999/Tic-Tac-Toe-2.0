@@ -64,17 +64,17 @@ const DisplayController = (function DisplayController(){
     }
 })();
  
-const TicTacToe = (function TicTacToe(){
+// const TicTacToe = (function TicTacToe(){
 
 
-    const init = function init() {
+//     const init = function init() {
 
-    };
+//     };
 
-    return {
-        init: init
-    }
-})();
+//     return {
+//         init: init
+//     }
+// })();
 
 window.addEventListener('load', function(){
     TicTacToe.init();    
